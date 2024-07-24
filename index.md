@@ -3,14 +3,6 @@ layout: default
 title: Home
 ---
 
-<nav class="navbar">
-    <ul class="nav-list">
-        <li><a href="{{ site.baseurl }}/">Home</a></li>
-        <li><a href="{{ site.baseurl }}/about">About</a></li>
-        <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
-    </ul>
-</nav>
-
 <header>
     <p>We are a group of individuals working on this website to better present you how and</p>
     <h2>Why Neural Net-Works</h2>
