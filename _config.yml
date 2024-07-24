@@ -12,10 +12,5 @@ collections:
   projects:
     output: true
 
-sass:
-  sass_dir: _sass
-  style: compressed # or nested, expanded, compact, as per your preference
-
-
 # Custom settings
 excerpt_separator: "<!--more-->"
