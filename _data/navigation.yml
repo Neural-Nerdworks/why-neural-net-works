@@ -1,0 +1,9 @@
+main:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/pages/about"
+  - title: "Resources"
+    url: "/pages/resources"
+  - title: "Techniques"
+    url: "/techniques"

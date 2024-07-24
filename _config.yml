@@ -1,0 +1,16 @@
+title: Why Neural Net Works
+description: Explaining and presenting interactive Neural Network techniques.
+baseurl: ""
+url: "http://****.github.io"
+theme: minima
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+collections:
+  projects:
+    output: true
+
+# Custom settings
+excerpt_separator: "<!--more-->"
