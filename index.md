@@ -52,7 +52,3 @@ title: Home
         {% endfor %}
     </div>
 </section>
-
-<footer>
-    <p>&copy; 2024 Team Why Neural NerdWorks</p>
-</footer>
