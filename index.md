@@ -12,22 +12,22 @@ title: Home
     <h2>Meet Our Team</h2>
     <div class="team-members">
         <div class="member">
-            <img src="/assets/imgs/team/rusen.png" alt="Member 1">
+            <img src="{{ '/assets/imgs/team/rusen.png' | relative_url }}" alt="Member 1">
             <h3>Ruşen Birben</h3>
             <p>Coffee Lover.</p>
         </div>
         <div class="member">
-            <img src="/assets/imgs/team/gokturk.png" alt="Member 2">
+            <img src="{{ '/assets/imgs/team/gokturk.png' | relative_url }}" alt="Member 2">
             <h3>Göktürk Dervişoğlu</h3>
             <p>Anime Lover.</p>
         </div>
         <div class="member">
-            <img src="/assets/imgs/team/anil.png" alt="Member 3">
+            <img src="{{ '/assets/imgs/team/anil.png' | relative_url }}" alt="Member 3">
             <h3>Anıl Dervşioğlu</h3>
             <p>Algorithm Lover.</p>
         </div>
         <div class="member">
-            <img src="/assets/imgs/team/gokturk.png" alt="Member 4">
+            <img src="{{ '/assets/imgs/team/busra.png' | relative_url }}" alt="Member 4">
             <h3>Büşra Şahin</h3>
             <p>Naruto Lover.</p>
         </div>
@@ -40,7 +40,7 @@ title: Home
         {% for project in site.projects %}
         <div class="project">
             <a href="{{ project.url }}">
-                <img src="{{ project.image }}" alt="{{ project.title }}">
+                <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
                 <h3>{{ project.title }}</h3>
                 <div class="tags">
                     {% for tag in project.tags %}
