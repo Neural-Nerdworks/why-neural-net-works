@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Project To Do"
-image: "/assets/imgs/projects/project2.jpg"
+image: "/assets/imgs/projects/sushi-dragon.jpg"
 tags:
 - name: "To be"
     color: "lightskyblue"
