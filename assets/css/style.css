@@ -78,7 +78,7 @@ header, footer {
 }
 
 footer p {
-  color: var(--text-color);
+  color: white;
 }
 
 .hero {
