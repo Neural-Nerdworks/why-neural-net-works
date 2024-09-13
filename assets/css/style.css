@@ -132,9 +132,16 @@ header {
 
 .member h3 {
     font-family: var(--font-sans);
-    font-size: 1.2rem;
-    margin-top: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 10px;
     transition: color 0.3s ease;
+}
+
+.member:hover h3 {
+    color: #ffffff;
 }
 
 .member p {
@@ -143,7 +150,6 @@ header {
     transition: color 0.3s ease;
 }
 
-.member:hover h3,
 .member:hover p {
     color: white;
 }
