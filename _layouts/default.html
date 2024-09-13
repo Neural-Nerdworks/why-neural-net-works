@@ -15,10 +15,16 @@
   </head>
   <body>
     {% include header.html %}
+    <nav>
+      <ul>
+        {% for item in site.data.navigation.main %}
+        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
     <div class="article-container">
-    <main>{{ content }}</main>
-    <div class="article-container">
-    
+      <main>{{ content }}</main>
+    </div>
     {% include footer.html %}
   </body>
 </html>
