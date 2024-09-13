@@ -7,7 +7,7 @@
   --card-background: #ffffff;
   --accent-color: #e74c3c;
   --dark-bg-color: #121212;
-  --dark-bg-gradient: linear-gradient(to bottom, #121212, #1e1e1e, #121212);
+  --dark-bg-gradient: linear-gradient(to bottom, #3c3b3b, #6877a6, #353535);
 }
 
 /* Global Styles */
@@ -69,7 +69,7 @@ h3 {
 }
 
 header, footer {
-  background-color: #f4f4f4;
+  background-color: var(--dark-bg-gradient);
   padding: 20px 0;
   text-align: center;
 }
