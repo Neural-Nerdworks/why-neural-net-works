@@ -32,7 +32,16 @@ header {
     justify-content: center;
 }
 
-.member, .project {
+.member {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #f4f4f4; /* Add this line to color the team card blocks */
+}
+
+.project {
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 10px;
