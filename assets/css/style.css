@@ -77,6 +77,10 @@ header, footer {
   text-align: center;
 }
 
+footer p {
+  color: var(--text-color);
+}
+
 .hero {
   background-color: var(--primary-color);
   color: white;
