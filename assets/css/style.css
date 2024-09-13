@@ -134,7 +134,7 @@ header {
     font-family: var(--font-sans);
     font-size: 1.4rem;
     font-weight: 600;
-    color: #000000;
+    color: #000000; /* Changed from #3949ab to #000000 */
     margin-top: 15px;
     margin-bottom: 10px;
     transition: color 0.3s ease;
