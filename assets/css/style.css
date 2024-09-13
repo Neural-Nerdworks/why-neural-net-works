@@ -2,7 +2,8 @@ body {
     font-family: var(--font-sans);
     line-height: 1.6;
     color: var(--text-color);
-    background-color: var(--background-color);
+    background: linear-gradient(to bottom, #121212, #1e1e1e, #121212); /* Dark gradient background for the entire page */
+    background-attachment: fixed; /* This ensures the gradient covers the entire page */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -23,6 +24,7 @@ header {
 .team h2, .projects h2 {
     text-align: center;
     margin-bottom: 20px;
+    color: #ffffff; /* Change text color to white for better visibility */
 }
 
 .team-members, .projects-grid {
@@ -30,7 +32,7 @@ header {
     flex-wrap: wrap;
     gap: 40px; /* Increased gap for more vertical spacing */
     justify-content: center;
-    background: linear-gradient(to bottom, #121212, #1e1e1e); /* Darker gradient background */
+    background: rgba(30, 30, 30, 0.5); /* Semi-transparent dark background */
     padding: 40px; /* Added padding inside the grid */
     border-radius: 15px; /* Optional: rounded corners for the grid */
 }
