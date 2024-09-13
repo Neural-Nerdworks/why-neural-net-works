@@ -106,6 +106,10 @@ footer p {
   padding: 10px 0;
 }
 
+nav ul {
+  list-style-type: none;  /* Removes bullet points */
+}
+
 .nav-list {
   list-style-type: none;
   margin: 0;
