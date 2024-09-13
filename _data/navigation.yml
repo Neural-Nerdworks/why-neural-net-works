@@ -1,9 +1,9 @@
 main:
   - title: "Home"
-    url: "{{ site.baseurl }}/"
+    url: "/"
   - title: "About"
-    url: "{{ site.baseurl }}/about/"
+    url: "/pages/about/"
   - title: "Resources"
-    url: "{{ site.baseurl }}/resources/"
+    url: "/pages/resources/"
   - title: "Techniques"
-    url: "{{ site.baseurl }}/techniques/"
+    url: "/pages/techniques/"
