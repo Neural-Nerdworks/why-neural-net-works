@@ -2,9 +2,9 @@
   <h1>Why Neural Net Works</h1>
   <nav class="navbar">
     <ul>
-      {% for item in site.data.navigation %}
+      {% for item in site.data.navigation.main %}
         <li>
-          <a href="{{ item.url }}" {% if page.url == item.url %}class="active"{% endif %}>
+          <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="active"{% endif %}>
             {{ item.title }}
           </a>
         </li>
