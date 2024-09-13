@@ -470,6 +470,7 @@ img {
     margin-bottom: 20px;
     font-family: var(--font-serif);
     text-align: center;
+    color: white;
 }
 
 .hero p {
@@ -478,4 +479,5 @@ img {
     margin: 0 auto;
     line-height: 1.6;
     text-align: center;
+    color: white;
 }
