@@ -1,7 +1,7 @@
 title: Why Neural Net Works
 description: Explaining and presenting interactive Neural Network techniques.
 baseurl: "/why-neural-net-works"
-url: "https://rusenbb.github.io/"
+url: "https://rusenbb.github.io"
 theme: minima
 
 markdown: kramdown

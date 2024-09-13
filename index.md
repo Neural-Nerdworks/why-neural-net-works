@@ -3,10 +3,10 @@ layout: default
 title: Home
 ---
 
-<header>
+<section class="hero">
     <p>We are a group of individuals working on this website to better present you how and</p>
     <h2>Why Neural Net-Works</h2>
-</header>
+</section>
 
 <section class="team">
     <h2>Meet Our Team</h2>
