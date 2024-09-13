@@ -70,6 +70,7 @@ h3 {
 
 header, footer {
   background-color: var(--dark-bg-gradient);
+  color: var(--dark-bg-color-gradient);
   padding: 20px 0;
   text-align: center;
 }
