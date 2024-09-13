@@ -7,7 +7,7 @@
   --card-background: #ffffff;
   --accent-color: #e74c3c;
   --dark-bg-color: #121212;
-  --dark-bg-gradient: linear-gradient(to bottom, #3c3b3b, #6877a6, #353535);
+  --dark-bg-gradient: linear-gradient(135deg, #1e1e1e, #2c3e50, #34495e);
 }
 
 /* Global Styles */
@@ -16,6 +16,8 @@ body {
   line-height: 1.6;
   color: var(--text-color);
   background: var(--dark-bg-gradient);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
   background-attachment: fixed;
   margin: 0;
   padding: 0;
@@ -416,5 +418,18 @@ pre code {
   header nav ul li {
       margin-left: 0;
       margin-right: 1rem;
+  }
+}
+
+/* Add this new keyframe animation at the end of the file */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
