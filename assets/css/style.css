@@ -78,7 +78,7 @@ header, footer {
 }
 
 footer p {
-  color: white;
+  color: #a0a0a0; /* Change this to a lighter gray color */
 }
 
 .hero {
@@ -138,7 +138,7 @@ footer p {
 .team h2, .projects h2 {
   text-align: center;
   margin-bottom: 40px;
-  color: #ffffff;
+  color: var(--text-color); /* Change this to white for better contrast */
 }
 
 .team-members, .projects-grid {
