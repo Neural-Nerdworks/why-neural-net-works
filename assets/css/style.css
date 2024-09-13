@@ -15,7 +15,7 @@ header {
 }
 
 .team, .projects {
-    padding: 40px 20px; /* Increased padding top and bottom */
+    padding: 60px 20px; /* Increased padding top and bottom */
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -28,10 +28,10 @@ header {
 .team-members, .projects-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px; /* Increased gap for more vertical spacing */
+    gap: 40px; /* Increased gap for more vertical spacing */
     justify-content: center;
-    background: linear-gradient(to bottom, #1a1a1a, #2a2a2a); /* Dark gradient background */
-    padding: 30px; /* Added padding inside the grid */
+    background: linear-gradient(to bottom, #121212, #1e1e1e); /* Darker gradient background */
+    padding: 40px; /* Added padding inside the grid */
     border-radius: 15px; /* Optional: rounded corners for the grid */
 }
 
@@ -51,7 +51,7 @@ header {
     overflow: hidden;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     transform-style: preserve-3d;
-    margin-bottom: 20px; /* Add bottom margin to each member card */
+    margin-bottom: 0; /* Remove bottom margin as we're using gap */
 }
 
 .member::before,
@@ -86,6 +86,7 @@ header {
 }
 
 .member:hover {
+    background-color: #1a237e; /* Dark blue color on hover */
     transform: translateY(-10px) rotateX(5deg) rotateY(-5deg);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
