@@ -138,7 +138,7 @@ footer p {
 .team h2, .projects h2 {
   text-align: center;
   margin-bottom: 40px;
-  color: white; /* Change this to white for better visibility */
+  color: rgb(0, 0, 0);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow for better contrast */
 }
 
