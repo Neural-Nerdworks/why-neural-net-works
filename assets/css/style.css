@@ -41,24 +41,61 @@ header {
     text-align: center;
     background-color: #f4f4f4;
     transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
 }
 
 .member:hover {
     background-color: #1a237e; /* Dark blue color */
     color: white;
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .member h3 {
-    font-family: var(--font-serif);
+    font-family: var(--font-sans);
     font-size: 1.2rem;
     margin-top: 10px;
+    transition: color 0.3s ease;
 }
 
 .member p {
     font-family: var(--font-sans);
     font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.member:hover h3,
+.member:hover p {
+    color: white;
+}
+
+.member::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        to bottom right,
+        rgba(255, 255, 255, 0.3) 0%,
+        rgba(255, 255, 255, 0.1) 50%,
+        transparent 100%
+    );
+    transform: rotate(45deg);
+    transition: 0.5s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.member:hover::before {
+    opacity: 1;
+}
+
+.member:hover img {
+    transform: scale(1.05);
+    filter: brightness(1.1);
 }
 
 .member img {
@@ -66,10 +103,6 @@ header {
     height: auto;
     border-radius: 50%;
     transition: transform 0.3s ease;
-}
-
-.member:hover img {
-    transform: scale(1.05);
 }
 
 .project {
